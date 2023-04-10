@@ -1,0 +1,329 @@
+
+/* didgah ha */
+.comments-list {
+    text-align: right;
+}
+
+.text-caption {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9e9fb1;
+    list-style: disc;
+}
+
+.text-caption-strong {
+    background-color: #ddd;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bx-store {
+    width: 22px;
+    height: auto;
+    margin-top: -9px;
+    margin-left: 7px;
+}
+
+.ml-6 {
+    margin-left: 6px !important;
+}
+
+.ml-12 {
+    margin-left: 12px !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.comment-title {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.ws {
+    word-spacing: -3px;
+}
+
+.rank-comment {
+    margin-top: 12px;
+}
+
+.rank-section {
+    margin: 30px 0;
+}
+
+/* end of didgah */
+/* menu bala */
+.mainmenu ul li:hover .newmegamenu {
+    padding: 20px;
+}
+
+.mainmenu ul li {
+    margin: 7px 0;
+    font-size: 13px;
+}
+
+.mainmenu ul li a {
+    color: #070707;
+}
+
+/* end menu */
+
+.t-right {
+    text-align: right;
+}
+
+button.answer-btn {
+    background: transparent;
+    border: none;
+    color: #11bed3;
+    font-weight: bold;
+}
+
+/* filter */
+.sidebarhead li {
+    padding: 10px 15px;
+}
+
+li.catbtn.active {
+    border-radius: 8px 0 0px 8px;
+}
+
+#sidebar__inner {
+    box-shadow: 0 9px 30px rgb(211 211 211 / 40%) !important;
+}
+
+.sidebarcolor,
+.shopsize,
+.sidebarprice,
+.sidebarcolorshort,
+.sidebarshostoshoo {
+    background: #f7f7f75c !important;
+}
+
+.sidebarhead {
+    box-shadow: none !important;
+}
+
+.sidebarcolor h6,
+.shopsize h6,
+.sidebarprice h6,
+.sidebarcolorshort h6,
+.sidebarshostoshoo h6 {
+
+    font-size: 10pt;
+    font-weight: bold;
+    word-spacing: -3px;
+}
+
+.sidebarbtns a {
+    padding: 5px 25px !important;
+    border: 0.5px solid #d4d4d4 !important;
+    border-radius: 20px !important;
+}
+
+.pricetoggle {
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.urselect {
+    font-size: 13px;
+    margin: 10px;
+}
+
+.shopul {
+    margin: 10px;
+}
+
+.shopsize p {
+    font-size: 14px;
+}
+
+.shopsizediv {
+    margin: 13px 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #fff;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.shopsizediv .checkmark:after {
+    left: 4px;
+    top: 1px;
+}
+
+.sidebarhead li.active {
+    background-color: #22b573;
+    color: white;
+}
+
+.sidebarcat ul li:last-child {
+    padding: 0;
+}
+
+.sidebarcat ul li {
+    padding: 10px 0;
+    border-bottom: 0.5px solid #d4d4d4;
+    font-size: 14px;
+}
+
+.sidebarcat ul li:last-child {
+    border-bottom: none;
+}
+
+.sidebarcat ul li:last-child {
+    padding: 10px 0;
+}
+
+.sidebarcat ul li ul {
+    background: transparent;
+}
+
+.allprobtn {
+    background: #dadada;
+    color: #000000;
+    font-weight: bold;
+    word-spacing: -3px;
+    font-size: 14px;
+}
+
+/* end filter */
+/* header search */
+.shopheader {
+    padding: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    background: url(img/sport-bg.png), #ffc83a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+.shopheader h4 {
+    line-height: 2;
+    word-spacing: -4px;
+    font-weight: bold;
+}
+
+.shopheader h6 {
+    font-size: 12px;
+    font-weight: normal;
+    word-spacing: 0px;
+    color: #14334c;
+}
+
+
+/* header */
+
+.logobar img {
+    width: 80px !important;
+}
+
+.login {
+    font-size: 12px !important;
+    padding: 8px 17px !important;
+}
+
+.headerbtn svg {
+    width: 22px !important;
+}
+
+.shopsearch {
+    margin: 0 !important;
+}
+
+.shopsearch form {
+    width: 100% !important;
+}
+
+.shopsearch input {
+    background: #edededa6;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+/* end header */
+
+/* breadcrumb-section */
+ul.breadcrumb-section {
+    margin: 15px 0;
+    position: relative;
+}
+
+ul.breadcrumb-section li {
+    padding: 0 10px;
+    font-size: 12px;
+
+}
+
+ul.breadcrumb-section li::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 100%;
+    background: url(/img/bx-chevron-left.svg);
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+ul.breadcrumb-section li a {
+    padding-right: 25px;
+    color: #838383;
+}
+
+/* search */
+.shopsearch {
+    position: relative;
+}
+
+.shopsearch button {
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    background: transparent !important;
+}
+
+.shopsearch form {
+    z-index: 1;
+}
+
+.result-search {
+    background: white;
+    padding: 10px;
+    border-radius: 0 0px 12px 12px;
+    position: absolute;
+    width: 94%;
+    top: 40px;
+    z-index: 0;
+    display: none;
+    box-shadow: 0 9px 30px rgb(211 211 211 / 40%) !important;
+}
+
+.shopposts {
+    position: relative;
+    z-index: 0;
+}
+
+/* end search */
+
+
