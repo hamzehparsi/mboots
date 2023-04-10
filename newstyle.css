@@ -619,6 +619,12 @@ h1.relative-ca {
   margin-bottom: 15px;
 }
 
+.li-nav-item {
+  list-style: disc;
+  margin: 5px 0;
+}
+
+
 @media (max-width: 575.98px) {
   .cat-body {
     border-left: 0;
