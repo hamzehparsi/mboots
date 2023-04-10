@@ -1,7 +1,7 @@
 let items = document.querySelectorAll(".nav-item");
-let subMenu = document.querySelector(".new-menu");
 items.forEach((element) => {
   element.addEventListener("mouseover", function handlehover(event) {
+    subMenu = element.children[1]
     subMenu.style.opacity = "100";
     subMenu.style.top = "140px";
     subMenu.style.visibility = "visible";
@@ -9,11 +9,16 @@ items.forEach((element) => {
 });
 items.forEach((element) => {
   element.addEventListener("mouseleave", function handlehover(event) {
+    subMenu = element.children[1]
     subMenu.style.opacity = "0";
     subMenu.style.top = "165px";
     subMenu.style.visibility = "hidden";
   });
 });
+
+
+
+
 // newProducts.addEventListener('mouseover', () => {
 //     subMenu.style.opacity = '100';
 //     subMenu.style.top = '140px';
