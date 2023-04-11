@@ -164,6 +164,7 @@ body {
   position: relative;
   height: 300px;
   width: 100%;
+  padding-top: 15px;
 }
 
 .block-t h2 {
@@ -172,7 +173,7 @@ body {
 }
 
 .border-title {
-  height: 170px;
+  height: 110px;
   border-right: 1px dashed #c4c4c4;
   position: absolute;
   right: 25%;
@@ -182,7 +183,7 @@ body {
 .all-view {
   position: absolute;
   right: 12%;
-  bottom: -20px;
+  bottom: 50px;
 }
 
 .all-view .plus-bg {
@@ -215,20 +216,14 @@ body {
   border-radius: 20px;
   /* box-shadow: 0 9px 30px rgb(211 211 211 / 40%) !important; */
   transition: all ease 0.5s;
-  min-height: 425px;
+  /* min-height: 425px; */
   height: auto;
-}
-
-.product-item:hover {
-  /* margin-top: -15px; */
-  /* background-color: #22b573;
-    color: white; */
 }
 
 img.product-image {
   width: 100%;
   border-radius: 25px;
-  height: 275px;
+  height: 235px;
   object-fit: cover;
   padding: 10px;
 }
@@ -237,7 +232,7 @@ img.product-image {
   position: absolute;
   left: 20px;
   top: 19px;
-  background: red;
+  background: #22b573;
   color: white;
   padding: 5px 12px;
   border-radius: 14px;
@@ -277,6 +272,8 @@ span.gheymat {
   font-size: 16px;
   font-weight: bold;
   color: #14334c;
+  margin: 0 7px;
+  background: url('img/SVG/price-bg.svg') no-repeat bottom;
 }
 
 span.toman {
@@ -289,18 +286,18 @@ span.toman {
 }
 
 .product-des-item {
-  padding: 20px;
-  padding-bottom: 26px;
+  padding: 15px;
 }
 
 h6.product-title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   color: #070707;
+  word-spacing: -3px;
 }
 
 .shegeft-section {
-  background: url(/img/SVG/bg-circle.svg);
+  background: url('/img/SVG/bg-circle.svg');
 }
 
 .sponser img {
@@ -625,6 +622,26 @@ h1.relative-ca {
 }
 
 
+.owl-stage {
+  padding-top: 25px;
+}
+.product-item:hover {
+  transform: translateY(-20px);
+}
+.price-pr {
+  margin-right: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 575.98px) {
   .cat-body {
     border-left: 0;
@@ -635,6 +652,7 @@ h1.relative-ca {
     margin: 20px;
     margin-top: -30px;
     margin-bottom: 70px;
+    
   }
 }
 

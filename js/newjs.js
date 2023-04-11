@@ -1,7 +1,7 @@
 let items = document.querySelectorAll(".nav-item");
 items.forEach((element) => {
   element.addEventListener("mouseover", function handlehover(event) {
-    subMenu = element.children[1]
+    subMenu = element.children[1];
     subMenu.style.opacity = "100";
     subMenu.style.top = "140px";
     subMenu.style.visibility = "visible";
@@ -9,15 +9,21 @@ items.forEach((element) => {
 });
 items.forEach((element) => {
   element.addEventListener("mouseleave", function handlehover(event) {
-    subMenu = element.children[1]
+    subMenu = element.children[1];
     subMenu.style.opacity = "0";
     subMenu.style.top = "165px";
     subMenu.style.visibility = "hidden";
   });
 });
 
+let sub = document.querySelector(".new-menu");
 
-
+// console.log(document.documentElement.clientHeight);
+document.addEventListener("scroll", () => {
+  if (window.pageYOffset > 50) {
+    sub.style.visibility = "hidden";
+  }
+});
 
 // newProducts.addEventListener('mouseover', () => {
 //     subMenu.style.opacity = '100';
@@ -118,7 +124,7 @@ $(document).ready(function () {
   });
   $(".owl-two").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 7,
     nav: true,
     dots: false,
     rtl: true,
@@ -130,7 +136,7 @@ $(document).ready(function () {
         items: 2,
       },
       1000: {
-        items: 3,
+        items: 4,
       },
     },
   });
