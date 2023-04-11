@@ -686,7 +686,10 @@ h1.relative-ca {
   font-size: 13px;
   margin: 10px;
 }
-
+#arezo img {
+  width: 100%;
+  border-radius: 20px;
+}
 
 
 
