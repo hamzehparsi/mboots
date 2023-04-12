@@ -124,7 +124,7 @@ $(document).ready(function () {
   });
   $(".owl-two").owlCarousel({
     loop: true,
-    margin: 7,
+    margin: 10,
     nav: true,
     dots: false,
     rtl: true,
