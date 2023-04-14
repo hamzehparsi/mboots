@@ -15,8 +15,7 @@ a:hover {
 @font-face {
   font-family: "iryekan";
   src: url("fonts/iranyekanwebregularfanum.eot");
-  src: url("fonts/iranyekanwebregularfanum.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("fonts/iranyekanwebregularfanum.eot?#iefix") format("embedded-opentype"),
     url("fonts/iranyekanwebregularfanum.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
@@ -24,8 +23,7 @@ a:hover {
 
 @font-face {
   font-family: "iryekan";
-  src: url("fonts/IRANYekanWebFn-ExtraBold.svg#IRANYekanWebFn-ExtraBold")
-      format("svg"),
+  src: url("fonts/IRANYekanWebFn-ExtraBold.svg#IRANYekanWebFn-ExtraBold") format("svg"),
     url("fonts/IRANYekanWebFn-ExtraBold.ttf") format("truetype"),
     url("fonts/IRANYekanWebFn-ExtraBold.woff") format("woff");
   font-weight: bold;
@@ -35,8 +33,7 @@ a:hover {
 @font-face {
   font-family: "iryekan";
   src: url("fonts/iranyekanwebextraboldfanum.eot");
-  src: url("fonts/iranyekanwebextraboldfanum.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("fonts/iranyekanwebextraboldfanum.eot?#iefix") format("embedded-opentype"),
     url("fonts/iranyekanwebextraboldfanum.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -159,19 +156,24 @@ body {
 .pr-des {
   font-size: 11px;
 }
-.shegeft-section .block-title h2, .shegeft-section .block-title a {
+
+.shegeft-section .block-title h2,
+.shegeft-section .block-title a {
   color: white;
 }
+
 .block-title {
   position: relative;
   height: 320px;
   width: 100%;
   padding-top: 15px;
 }
+
 #shegeft-slider .block-t h2 {
   font-weight: bold;
   line-height: 0.7;
 }
+
 .porfrosh-section .block-t h2 {
   font-weight: bold;
   line-height: 0.7;
@@ -302,12 +304,14 @@ h6.product-title {
   font-weight: bold;
   color: #070707;
   word-spacing: -3px;
+  text-align: right;
 }
 
 .shegeft-section {
   background: #22b573;
   padding: 15px 0;
 }
+
 .porfrosh-section {
   /* background: url(/img/svg/bg-circle.svg); */
   background: url(/img/svg/bg-new.svg);
@@ -326,7 +330,7 @@ h6.product-title {
 }
 
 #sponser {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 #sponser h2 {
@@ -348,7 +352,7 @@ h6.product-title {
 }
 
 .owl-dot span {
-  margin: 10px;
+  margin: 5px;
   width: 10px;
   height: 10px;
   display: block;
@@ -401,8 +405,8 @@ button.owl-dot.active span {
   background-color: #22b573;
   color: white;
 }
-#shegeft-slider 
-#shegeft-slider .owl-nav {
+
+#shegeft-slider #shegeft-slider .owl-nav {
   margin-top: 20px;
   /* margin: 0 auto; */
   /* width: 100%; */
@@ -522,13 +526,16 @@ a.search-title {
 .items-center {
   align-items: center;
 }
+
 #owl-search {
   position: relative;
 }
+
 #owl-search .owl-item {
   border: 1px solid #ddd;
   border-radius: 10px;
 }
+
 #owl-search .owl-nav {
   position: absolute;
   top: -35%;
@@ -537,10 +544,12 @@ a.search-title {
   /* height: 100px; */
   left: 40px;
 }
+
 #owl-search .owl-stage {
   margin-right: -44px;
   padding-top: 0;
 }
+
 #owl-search .owl-stage-outer img {
   /* padding: 0px 40px; */
   border-radius: 10px;
@@ -548,6 +557,7 @@ a.search-title {
   width: 60px !important;
   height: 60px;
 }
+
 #owl-search button.owl-next {
   /* position: relative; */
   /* right: 0; */
@@ -561,9 +571,11 @@ a.search-title {
   transition: all ease 0.4s;
   border: 1px solid #ddd;
 }
+
 #owl-search .search-item {
   padding: 5px 5px;
 }
+
 #owl-search button.owl-prev {
   /* position: absolute; */
   /* right: 0; */
@@ -578,6 +590,7 @@ a.search-title {
   border: 1px solid #ddd;
   margin-top: 35px;
 }
+
 h1.relative-pr {
   text-align: right;
   font-size: 13px;
@@ -586,38 +599,46 @@ h1.relative-pr {
   margin-right: 7px;
   margin-bottom: -6px;
 }
+
 .user a,
 .call-number {
   font-size: 12px;
   color: #333333;
 }
+
 .call img {
   width: 20px;
   height: auto;
   margin-top: -7px;
 }
+
 .lang {
   width: 30px;
   height: 30px;
 }
+
 .lang a {
   background-color: white;
   color: #333333;
   padding: 6px 9px;
   border-radius: 12px;
 }
+
 .top-logo img {
   width: 77px;
 }
+
 .search button {
   background: white;
   padding: 5px;
   border-radius: 12px;
 }
+
 .navbar-light .navbar-nav .nav-link {
   font-weight: 700;
   font-size: 14px;
 }
+
 li.searched-catagory {
   list-style: none;
   text-align: right;
@@ -628,12 +649,15 @@ li.searched-catagory {
   border-radius: 9px;
   font-size: 14px;
 }
+
 li.searched-catagory a {
   color: #14334c;
 }
+
 #search-list-category {
   margin-right: -45px;
 }
+
 h1.relative-ca {
   text-align: right;
   font-size: 13px;
@@ -652,40 +676,49 @@ h1.relative-ca {
 .owl-stage {
   padding-top: 25px;
 }
+
 .product-item:hover {
   transform: translateY(-20px);
 }
+
 .price-pr {
   margin-right: -20px;
 }
+
 /* footer */
 #footer-contact {
   padding-top: 20px;
 }
+
 #footer-contact .icons {
   margin-top: -20px;
 }
+
 #footer-contact h1 {
   color: #070707;
   font-size: 14pt;
   font-weight: bold;
   word-spacing: -4px;
 }
+
 #footer-contact p {
   color: white;
   font-size: 10pt;
 }
+
 #footer-menu {
   background-color: white;
   padding: 50px 0;
   text-align: right;
 }
+
 #footer-menu h1 {
   font-size: 17px;
   font-weight: bold;
   word-spacing: -3px;
   margin-bottom: 20px;
 }
+
 #footer-menu p {
   font-size: 13px;
   word-spacing: -2px;
@@ -693,20 +726,25 @@ h1.relative-ca {
   text-align: right;
   color: #646464;
 }
+
 #footer-menu ul {
   margin-right: -35px;
 }
+
 #footer-menu li {
   font-size: 13px;
   margin: 10px;
 }
+
 #arezo img {
   width: 100%;
   border-radius: 20px;
 }
+
 div#catagory-slider .owl-stage-outer {
   margin-top: -25px;
 }
+
 .icon-item {
   background-color: rgb(255 255 255 / 11%);
   width: 50px;
@@ -717,16 +755,20 @@ div#catagory-slider .owl-stage-outer {
   border-radius: 15px;
   transition: all ease 0.4s;
 }
+
 #sponser h2 {
   margin-bottom: 20px;
 }
+
 .contact-way {
   text-align: left;
   direction: ltr;
 }
-.contact-way li{
+
+.contact-way li {
   list-style: none;
 }
+
 a.read-more-footer {
   color: #14334c;
   border-radius: 35px;
@@ -734,26 +776,129 @@ a.read-more-footer {
   background-color: #d4d4d4;
   padding: 6px 17px;
 }
+
 #academy {
   padding: 25px;
 }
+
 #academy img {
   transition: all ease 0.4s;
 }
+
 #academy img:hover {
   filter: grayscale(1);
   transform: translateY(-8px);
 }
+
 .icon-item:hover {
   background-color: #070707;
 }
+
 .icon-item a {
   padding-top: 8px;
 }
 
+#events {
+  padding-bottom: 40px;
+}
 
+#events h2 {
+  font-weight: bold;
+  font-size: 10pt;
+  word-spacing: -4px;
+  color: #22b573;
+  margin-bottom: -20px;
+}
 
+img.virgool {
+  width: 430px;
+}
 
+#events h1 {
+  font-size: 22px;
+  padding-top: 5px;
+  font-weight: bold;
+  word-spacing: -3px;
+}
+
+#events p {
+  font-size: 15px;
+  line-height: 2;
+  word-spacing: -3px;
+  color: #8d8d8d;
+}
+
+#blogs {
+  padding: 40px 0;
+}
+
+#blogs h5 {
+  font-size: 13px;
+  color: #9f9f9f;
+  margin-top: 11px;
+  margin-right: 5px;
+  word-spacing: -2px;
+}
+
+.image-blogs {
+  width: 100%;
+  height: 310px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+  /* box-shadow: 0 9px 30px rgb(211 211 211 / 40%) !important; */
+}
+
+#blogs a {
+  font-size: 19px;
+  color: #070707;
+  font-weight: bold;
+  word-spacing: -5px;
+  line-height: 1.7;
+  text-indent: 38px;
+  margin: 10px 0;
+
+}
+#blogs .owl-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+#blogs button {
+  background: white;
+  border-radius: 100%;
+  margin: 5px;
+  transition: all 0.4s ease 0s;
+  padding: 1px 10px !important;
+}
+#blogs .blog-des {
+  /* background-color: white; */
+  padding: 45px;
+  /* border-radius: 20px; */
+}
+#blogs h4 {
+  font-size: 12px;
+  font-weight: normal;
+  word-spacing: -3px;
+  color: #8d8d8d;
+}
+
+#blogs p {
+  font-size: 15px;
+  line-height: 2;
+  word-spacing: -3px;
+  color: #8d8d8d;
+}
+
+.image-blogs {
+  position: relative;
+}
+
+img.arrow-blogs {
+  position: absolute;
+  right: 45px;
+  top: 74px;
+  width: 30px!important;
+}
 
 
 
@@ -777,22 +922,18 @@ a.read-more-footer {
     margin: 20px;
     margin-top: -30px;
     margin-bottom: 70px;
-    
+
   }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}

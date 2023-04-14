@@ -160,6 +160,46 @@ $(document).ready(function () {
       },
     },
   });
+  $(".owl-s").owlCarousel({
+    loop: true,
+    // margin: 10,
+    // nav: true,
+    // stagePadding: 50,
+    rtl: true,
+    dots: true,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+  $(".owl-blog").owlCarousel({
+    // loop: true,
+    margin: 0,
+    nav: true,
+    stagePadding: 0,
+    rtl: true,
+    dots: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
   $(".owl-search").owlCarousel({
     loop: false,
     margin: 10,
