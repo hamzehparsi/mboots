@@ -1117,7 +1117,32 @@ li.pr-tag a {
   font-weight: 600;
 }
 
-
+.cart-number-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1.number-as-pr {
+  text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+button.number-pr {
+  background: #1aaa5b;
+    border: none;
+    margin: 0 7px;
+    /* padding: 5px 15px; */
+    border-radius: 13px;
+    height: 43px;
+    width: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 
 
 
