@@ -134,6 +134,7 @@ $(document).ready(function () {
     rtl: true,
     responsive: {
       0: {
+        margin: 10,
         items: 1,
       },
       600: {
@@ -154,6 +155,7 @@ $(document).ready(function () {
     autoplay: true,
     responsive: {
       0: {
+        stagePadding: 10,
         items: 1,
       },
       600: {
@@ -239,6 +241,26 @@ $(document).ready(function () {
       },
       1000: {
         items: 4,
+      },
+    },
+  });
+  $(".owl-pish").owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    rtl: true,
+    dots: false,
+    stagePadding: 50,
+    responsive: {
+      0: {
+        items: 1,
+        stagePadding: 10,
+      },
+      600: {
+        items:1,
+      },
+      1000: {
+        items: 2,
       },
     },
   });
