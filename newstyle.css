@@ -83,10 +83,10 @@ body {
   transition: all ease 0.5s;
   opacity: 0;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   right: 0;
   left: 0;
-  top: 165px;
+  top: 105px;
   visibility: hidden;
   padding-bottom: 20px;
 }
@@ -859,10 +859,12 @@ img.virgool {
   margin: 10px 0;
 
 }
+
 #blogs .owl-nav {
   text-align: center;
   margin-top: 10px;
 }
+
 #blogs button {
   background: white;
   border-radius: 100%;
@@ -870,11 +872,13 @@ img.virgool {
   transition: all 0.4s ease 0s;
   padding: 1px 10px !important;
 }
+
 #blogs .blog-des {
   /* background-color: white; */
   padding: 45px;
   /* border-radius: 20px; */
 }
+
 #blogs h4 {
   font-size: 12px;
   font-weight: normal;
@@ -897,8 +901,227 @@ img.arrow-blogs {
   position: absolute;
   right: 45px;
   top: 74px;
-  width: 30px!important;
+  width: 30px !important;
 }
+
+img.image-pr-inside {
+  width: 100%;
+  height: 445px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.add-cart {
+  border-radius: 12px;
+  background-color: #ffc83a;
+  color: #14334c;
+  width: 100%;
+  padding: 5px;
+}
+
+a.add-cart {
+  color: #14334c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.add-cart img {
+  width: 21px;
+  height: auto;
+}
+
+h1.add-text {
+  font-size: 14px;
+  font-weight: bold;
+  word-spacing: -4px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+h4.pr-title-inside {
+  font-size: 18pt;
+  font-weight: bold;
+  word-spacing: -3px;
+}
+
+p.des-pr-inside {
+  font-size: 14px;
+  color: #868686;
+  word-spacing: -2px;
+  margin-top: -7px;
+}
+
+.cart-price-des {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h2.cart-price {
+  font-weight: bold;
+  color: rgb(26, 170, 91);
+}
+
+h6.cart-price-ghabli {
+  padding: 0 20px;
+  text-decoration: line-through;
+  color: #b2b2b2;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.size-des span {
+  margin: 0 12px;
+  color: #7b7b7b;
+}
+
+h6.text-size {
+  font-weight: bold;
+  margin: 0px 0px 1px 10px;
+}
+
+p.toman-inside {
+  color: #888;
+  padding: 7px;
+  font-size: 13px;
+  margin-top: 9px;
+}
+
+.custom-control {
+  margin: 0 15px;
+  line-height: 1.7;
+  color: #14334c;
+}
+
+.pr-vijegi {
+  margin-top: 30px;
+  margin-right: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.pr-vijegi h4 {
+  font-size: 13px;
+  margin: 12px;
+}
+
+
+/* Basic styling */
+
+[type=checkbox] {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgb(26, 170, 91);
+  vertical-align: text-bottom;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  outline: 0;
+  flex-grow: 0;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  transition: background 300ms;
+  cursor: pointer;
+}
+
+
+/* Pseudo element for check styling */
+
+[type=checkbox]::before {
+  content: "";
+  color: transparent;
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  border: 0;
+  background-color: transparent;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1px #CCD3D8;
+}
+
+
+/* Checked */
+
+[type=checkbox]:checked {
+  background-color: currentcolor;
+}
+
+[type=checkbox]:checked::before {
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+}
+
+
+/* Disabled */
+
+[type=checkbox]:disabled {
+  background-color: #CCD3D8;
+  opacity: 0.84;
+  cursor: not-allowed;
+}
+
+
+/* IE */
+
+[type=checkbox]::-ms-check {
+  content: "";
+  color: transparent;
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  border: 0;
+  background-color: transparent;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1px #CCD3D8;
+}
+
+[type=checkbox]:checked::-ms-check {
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+}
+
+.colors-sizes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 30px 0;
+}
+
+.size label {
+  color: #999;
+  margin: 0 9px;
+  font-size: 13px;
+}
+li.pr-tag {
+  background: white;
+  display: inline;
+  padding: 4px 20px;
+  list-style: none;
+  border-radius: 28px;
+  margin: 0 10px;
+}
+li.pr-tag a {
+  color: #333333;
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+
+
+
+
+
 
 
 

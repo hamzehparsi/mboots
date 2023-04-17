@@ -3,7 +3,7 @@ items.forEach((element) => {
   element.addEventListener("mouseover", function handlehover(event) {
     subMenu = element.children[1];
     subMenu.style.opacity = "100";
-    subMenu.style.top = "140px";
+    subMenu.style.top = "50px";
     subMenu.style.visibility = "visible";
   });
 });
@@ -11,7 +11,7 @@ items.forEach((element) => {
   element.addEventListener("mouseleave", function handlehover(event) {
     subMenu = element.children[1];
     subMenu.style.opacity = "0";
-    subMenu.style.top = "165px";
+    subMenu.style.top = "50px";
     subMenu.style.visibility = "hidden";
   });
 });
@@ -24,7 +24,11 @@ document.addEventListener("scroll", () => {
     sub.style.visibility = "hidden";
   }
 });
-
+let modalContent = document.querySelector('.modal-content-search-result')
+let modalBox = document.querySelector('.modal')
+modalContent.addEventListener('click', () => {
+  modalBox.classList.toggle('show')
+})
 // newProducts.addEventListener('mouseover', () => {
 //     subMenu.style.opacity = '100';
 //     subMenu.style.top = '140px';
@@ -216,6 +220,25 @@ $(document).ready(function () {
       },
       1000: {
         items: 2,
+      },
+    },
+  });
+  $(".owl-product-inside").owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    rtl: true,
+    dots: false,
+    stagePadding: 50,
+    responsive: {
+      0: {
+        items: 3,
+      },
+      600: {
+        items:4,
+      },
+      1000: {
+        items: 4,
       },
     },
   });
