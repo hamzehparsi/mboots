@@ -1028,7 +1028,7 @@ p.toman-inside {
   outline: 0;
   flex-grow: 0;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   transition: background 300ms;
   cursor: pointer;
 }
@@ -1329,11 +1329,17 @@ div#tr {
   display: none;
 }
 button#btn-read {
-  background: transparent;
-  border: none;
-  color: #888;
-  font-size: 19pt;
-  font-weight: bold;
+  background: #1aaa5b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 19pt;
+    font-weight: bold;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button#btn-read:focus {
   border: none;
