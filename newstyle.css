@@ -1368,11 +1368,37 @@ li.h-row:last-child {
   font-size: 14px;
   color: #070707;
 }
-
-
-
-
-
+.h-pr-list h3 {
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1aaa5b;
+}
+.h-pr-list h4 {
+  margin: 0 4px;
+  font-size: 14px;
+}
+#h-ghest-list h3 {
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1aaa5b;
+}
+#h-ghest-list h4 {
+  margin: 0 4px;
+  font-size: 14px;
+}
+#h-file-list a h1{
+  font-size: 16px;
+  font-weight: bold;
+  color: #070707;
+  margin-top: 10px;
+}
+#h-file-list h3{
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
 
 
 
