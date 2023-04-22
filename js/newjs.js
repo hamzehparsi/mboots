@@ -31,6 +31,12 @@ modalContent.addEventListener('click', () => {
 })
 
 
+// menu hoghoghi
+// let btnRead = document.querySelector('#btn-read')
+// let menuHo = document.querySelector('.menu-ho')
+// btnRead.addEventListener('click', () => {
+//   menuHo.classList.toggle('show')
+// })
 
 
 
@@ -167,7 +173,7 @@ $(document).ready(function () {
         items: 3,
       },
       600: {
-        items:4,
+        items: 4,
       },
       1000: {
         items: 4,
@@ -187,7 +193,7 @@ $(document).ready(function () {
         stagePadding: 10,
       },
       600: {
-        items:1,
+        items: 1,
       },
       1000: {
         items: 2,
